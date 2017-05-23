@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang='en'>
 <head>
@@ -12,7 +13,7 @@
 
     <!-- Title -->
     <title></title>
-    
+	
     <link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon" />
     
     <!-- jQuery -->
@@ -38,60 +39,36 @@
     
 </head>
 <body>
-<div id='member-wrapper'>
+    <div id='member-wrapper'>
     
-    <div class='child-member-wrapper pic'>
+    <div class='child-member-wrapper pick'>
     </div>
     
-    <div class='child-member-wrapper cover'>
+    <div class='child-member-wrapper covere'>
         
-        <button class='btn btn-default hidden-xs' onclick="window.location.href='/login'">Log In</button>
+        <div class='container form-handlere'>
         
-        <div class='container form-handler'>
-        
-            <div class='col-sm-6 hidden-xs handlee'>
-                <img class="img-responsive" id='fila' src='./img/ankara-member.png'>
-            </div>
-            
-            <div class='col-sm-6 handlee' id='forma'>
+            <div class='col-sm-10 col-sm-offset-1 handlee' id='forma'>
                 <img src='./img/ankara-member.png' />
-                <h3>Welcome to KwaaKwaa</h3>
-                <p>End that fight with your tailor</p>
+                <h3>Login to see some</h3>
                 
                 
                 <input type='email' placeholder='Email' class='form-control' />
-                <input type='password' placeholder='Create a password' class='form-control' />
+                <input type='password' placeholder='Password' class='form-control' />
                 <button class='btn btn-default' id='continue'>Continue</button>
                 
                 <!--<p>Or</p> -->
                 
                 <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true"></div>
                 
-                <p id='other'>Creating an account means you’re OK with KwaaKwaa's<br /><a href=''>Terms of Service</a> and <a href=''>Privacy Policy</a></p>
-                
-                <button class='btn btn-default visible-xs login-btn'>Log In</button>
+                <p>Forgot your password?</p>
+                <p>Need an account? <span>Sign Up</span></p>
             </div>
             
         </div>
-        
-        
-        <div id='handlee-footer' class='hidden-xs'>
-            <ul>
-                <li>About KwaaKwaa</li>
-                <li>Blog</li>
-                <li>Businesses</li>
-                <li>Terms of Service</li>
-                <li>Privacy Policy</li>
-                <li>Help</li>
-                <li>iPhone App</li>
-                <li>Android App</li>
-            </ul>
-        </div>
-        
-    </div>
     
     
-    <nav class="navbar navbar-default navbar-fixed-bottom hidden-xs" id='member-footer'>
+    <!--<nav class="navbar navbar-default navbar-fixed-bottom hidden-xs" id='member-footer'>
         <div class="container">
             <ul>Discover KwaaKwaa: 
                 <li>Item</li>
@@ -104,13 +81,10 @@
             </ul>
 
         </div>
-    </nav>
+    </nav>-->
     
 </div>
-
-
-
-<script type='text/javascript' src='./js/bg_anim.js'></script>
-<script type='text/javascript' src='./js/login_btn.js'></script>
+    
+    
 </body>
 </html>
