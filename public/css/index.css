@@ -1,0 +1,181 @@
+/** CSS File **/
+html,body {
+    height: 100%;
+}
+
+input:valid {
+    background: green;
+}
+
+#member-wrapper {
+    height: 100%;
+    width: 100%;
+    position; relative;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+}
+
+.child-member-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.pic {
+    background: url('../img/member_pic.png');
+}
+
+.cover {
+    background: rgba(0,0,0,0.7);
+}
+
+.covere {
+    background: #efefef;
+}
+
+.cover > button  {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 7px 50px;
+    font-weight: bold;
+}
+
+.form-handler, .form-handlere {
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.form-handler {
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+    left: 22.5%;
+    width: 55%;
+}
+
+.form-handlere {
+    top: 30%;
+    transform: perspective(1px) translateY(-30%);
+    left: 30%;
+    width: 40%;
+    box-shadow: 2px 2px 10px 3px #ccc;
+}
+
+.handlee {
+    padding: 0;
+}
+
+.handlee h3 {
+    color: #555555;
+}
+
+.handlee p {
+    color: #b5b5bb;
+}
+
+.handlee img#fila {
+    width: 100%;
+}
+
+.handlee#forma {
+    padding: 30px;
+    text-align: center;
+}
+
+.handlee#forma img {
+    width: 50px;
+    height: 50px;
+}
+
+.handlee input, .handlee input:focus, .handlee input:hover {
+    border: none;
+    margin-bottom: 10px;
+    background: #f0f0f0;
+    box-shadow: none;
+}
+
+.handlee input[type='email'] {
+    margin-top: 20px;
+}
+
+.handlee button#continue{
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background: #0425b0;
+    border: none;
+    color: #fff;
+}
+
+.handlee button.visible-xs{
+    margin:0 auto;
+}
+
+.handlee button#continue:hover {
+    background: #052ac4;
+    color: #fff
+}
+
+.handlee #other {
+    font-size: 75%;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.handlee #other a {
+    font-weight: bold;
+    color: #555555
+}
+
+.handlee #other a:hover {
+    text-decoration: none;
+}
+
+#handlee-footer {
+    position: absolute;
+    color: #f5f5f5;
+    bottom: 45px;
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+}
+
+#member-footer, #member-footer.container {
+    padding: 0;
+    margin: 0;
+    margin-bottom: -20px;
+    text-align: center;
+    padding-top: 5px;
+    display: none;
+}
+
+#member-wrapper ul {
+    list-style: none;
+    width: 100%;
+    font-size: 75%;
+}
+
+#member-wrapper ul li {
+    display: inline;
+    padding: 5px
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .pic, .cover, .covere {
+        background: #fff;
+    }
+    
+    .form-handler, .form-handlere {
+        left: 0;
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none
+    }
+}
+
